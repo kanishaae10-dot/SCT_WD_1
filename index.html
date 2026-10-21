@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern responsive landing page built with HTML, CSS and JavaScript.">
+    <title>Nova | Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fixed Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <a href="#home" class="logo">nova<span>.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="nav-links">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO NOVA</p>
+                <h1>Ideas today.<br><span>Impact tomorrow.</span></h1>
+                <p class="hero-description">
+                    Discover a smarter, simpler way to bring your ideas to life.
+                    Explore possibilities and create something extraordinary.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">Explore Features ↗</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    Designed for a better digital experience
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Decorative abstract design">
+                <div class="visual-orbit orbit-one"></div>
+                <div class="visual-orbit orbit-two"></div>
+                <div class="visual-card">
+                    <div class="visual-card-top">
+                        <span class="mini-dot"></span>
+                        <span class="mini-dot"></span>
+                        <span class="mini-dot"></span>
+                    </div>
+                    <div class="visual-symbol">✳</div>
+                    <p>Think beyond.</p>
+                    <span class="visual-subtitle">Create without limits.</span>
+                </div>
+                <div class="floating-badge badge-top">✦ New ideas</div>
+                <div class="floating-badge badge-bottom">↗ Keep growing</div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section" id="features">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT WE OFFER</p>
+                <h2>Built for your next big idea.</h2>
+                <p>Simple principles. Thoughtful design. Better experiences.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">✦</div>
+                    <h3>Modern Design</h3>
+                    <p>A clean and attractive interface designed to make every interaction feel effortless.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">↗</div>
+                    <h3>Responsive Layout</h3>
+                    <p>A flexible layout that adapts smoothly to desktops, tablets and mobile devices.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">◎</div>
+                    <h3>Smooth Experience</h3>
+                    <p>Simple navigation and interactive elements that make exploring the page enjoyable.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about-mark">N<span>.</span></div>
+            <div class="about-content">
+                <p class="eyebrow">A LITTLE ABOUT US</p>
+                <h2>Good ideas deserve great experiences.</h2>
+                <p>
+                    Nova represents creativity, clarity and continuous growth.
+                    This landing page combines a clean interface with responsive
+                    design and interactive navigation to deliver a consistent
+                    experience across different screen sizes.
+                </p>
+                <a href="#contact" class="text-link">Let's connect <span>→</span></a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <p class="eyebrow">HAVE AN IDEA?</p>
+            <h2>Let's make something great.</h2>
+            <p>Every great project starts with a conversation.</p>
+            <a href="mailto:hello@example.com" class="btn btn-primary">Get in Touch ↗</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">nova<span>.</span></a>
+        <p>Designed and developed as a Web Development Internship Task.</p>
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
